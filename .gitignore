@@ -1,0 +1,53 @@
+# Elixir / Phoenix specific files
+/_build/
+/deps/
+/node_modules/
+*.ez
+
+# Editor & OS files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Secrets & Credentials
+/config/*.secret.exs
+/config/prod.secret.exs
+/config/prod.secret.exs
+config/credentials.exs
+
+# Logs & Temporary Files
+/log/
+!/log/.keep
+/priv/static/
+!/priv/static/uploads/
+/priv/repo/migrations/*~
+/tmp/
+
+# Phoenix LiveView Debugging
+/.elixir_ls/
+/.erlang.cookie
+
+# Asset Compilations
+/priv/static/assets/
+assets/node_modules/
+assets/.esbuild/
+assets/.tailwind/
+
+# Mix & Compilation
+/mix.lock
+/mix.exs~
+/config/config.exs~
+/test/support/tmp/
+test/support/tmp/
+
+# Elixir Releases
+/_rel/
+/rel/
+/releases/
+
+# Coverage reports
+cover/
