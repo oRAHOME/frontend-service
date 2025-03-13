@@ -1,6 +1,7 @@
 defmodule FrontendServiceWeb.SignupLive do
   use Phoenix.LiveView
   require Logger
+  alias FrontendServiceWeb.GoogleSignInButtonComponent
 
   @auth_service_url "http://localhost:8000/auth/register"
 
@@ -22,11 +23,8 @@ defmodule FrontendServiceWeb.SignupLive do
             <p class="text-red-600 bg-red-100 p-2 rounded text-center"><%= @flash["error"] %></p>
           <% end %>
 
-          <!-- Google Sign-Up Button -->
-          <button class="w-full flex items-center justify-center gap-2 px-4 py-3 text-gray-600 bg-white border border-gray-300 rounded-lg shadow-sm hover:bg-gray-50">
-            <img src="/images/google-icon.png" alt="Google" class="h-5 w-5">
-            Sign up with Google
-          </button>
+          <!-- Google Sign-In Button Component -->
+          <.live_component module={GoogleSignInButtonComponent} id="google-sign-in" />
 
           <div class="flex items-center my-4">
             <div class="flex-1 border-t border-gray-300"></div>
@@ -62,6 +60,15 @@ defmodule FrontendServiceWeb.SignupLive do
       </div>
     </div>
     """
+  end
+
+  # OAuth login navigation
+  def handle_params(%{"accessToken" => token}, _uri, socket) do
+    {:noreply, socket |> put_flash(:info, "Google Login Successful!") |> push_navigate(to: "/dashboard")}
+  end
+
+  def handle_params(_params, _uri, socket) do
+    {:noreply, socket}
   end
 
   def handle_event("register", params, socket) do
