@@ -1,0 +1,1875 @@
+[
+    {
+        "entity_id": "person.bhavnoor",
+        "state": "home",
+        "attributes": {
+            "editable": true,
+            "id": "bhavnoor",
+            "device_trackers": [
+                "device_tracker.vanceds24",
+                "device_tracker.tab",
+                "device_tracker.galaxy_watch4_b49b"
+            ],
+            "latitude": 49.2238152,
+            "longitude": -122.9939424,
+            "gps_accuracy": 100,
+            "source": "device_tracker.vanceds24",
+            "user_id": "80f52addf6b94ab188d2d83e5a16cb69",
+            "entity_picture": "/api/image/serve/695906243bb894c527977d2a317eb319/512x512",
+            "friendly_name": "Bhavnoor"
+        },
+        "last_changed": "2025-03-30T20:16:48.447608+00:00",
+        "last_reported": "2025-03-30T22:15:17.680091+00:00",
+        "last_updated": "2025-03-30T22:15:17.680091+00:00",
+        "context": {
+            "id": "01JQMHZ6XG4WSB9QRSM03FVWPY",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "person.test_user",
+        "state": "unknown",
+        "attributes": {
+            "editable": true,
+            "id": "test_user",
+            "device_trackers": [],
+            "user_id": "8facfcbf07ea4f51bfa4d181c17ddd44",
+            "entity_picture": "/api/image/serve/43d58b2c19f71791513276cfc4ae0531/512x512",
+            "friendly_name": "Test - User"
+        },
+        "last_changed": "2025-03-30T20:16:48.447828+00:00",
+        "last_reported": "2025-03-30T20:17:45.280605+00:00",
+        "last_updated": "2025-03-30T20:17:45.280605+00:00",
+        "context": {
+            "id": "01JQMB7ZT0M8045GWSNH1218H6",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+            "auto_update": true,
+            "display_precision": 0,
+            "installed_version": "2025.03.3",
+            "in_progress": false,
+            "latest_version": "2025.03.3",
+            "release_summary": null,
+            "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2025.03.3",
+            "skipped_version": null,
+            "title": "Home Assistant Supervisor",
+            "update_percentage": null,
+            "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+            "friendly_name": "Home Assistant Supervisor Update",
+            "supported_features": 1
+        },
+        "last_changed": "2025-03-30T20:16:50.494709+00:00",
+        "last_reported": "2025-03-30T20:16:50.494709+00:00",
+        "last_updated": "2025-03-30T20:16:50.494709+00:00",
+        "context": {
+            "id": "01JQMB6A9YTRVRHMTNNA9821P0",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "on",
+        "attributes": {
+            "auto_update": false,
+            "display_precision": 0,
+            "installed_version": "2025.1.3",
+            "in_progress": false,
+            "latest_version": "2025.3.4",
+            "release_summary": null,
+            "release_url": "https://www.home-assistant.io/latest-release-notes/",
+            "skipped_version": null,
+            "title": "Home Assistant Core",
+            "update_percentage": null,
+            "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+            "friendly_name": "Home Assistant Core Update",
+            "supported_features": 11
+        },
+        "last_changed": "2025-03-30T20:16:50.496421+00:00",
+        "last_reported": "2025-03-30T20:16:50.496421+00:00",
+        "last_updated": "2025-03-30T20:16:50.496421+00:00",
+        "context": {
+            "id": "01JQMB6AA0GK4JVX756KRP8WRS",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "on",
+        "attributes": {
+            "auto_update": false,
+            "display_precision": 0,
+            "installed_version": "9.7.1",
+            "in_progress": false,
+            "latest_version": "9.16.0",
+            "release_summary": "# Changelog\n\n## 9.16.0\n\n- Upgrade ttyd to 1.7.7 (fixes copy to clipboard using shift and drag)\n\n## 9.15.0\n\n- Upgrade Home Assistant CLI to 4.36.0\n\n## 9.14.0\n\n- Upgrade Home Assistant CLI to 4.34.0\n\n## 9.13.0\n\n- Enable ha command completion for non-login s",
+            "release_url": null,
+            "skipped_version": null,
+            "title": "Terminal & SSH",
+            "update_percentage": null,
+            "entity_picture": "/api/hassio/addons/core_ssh/icon",
+            "friendly_name": "Terminal & SSH Update",
+            "supported_features": 25
+        },
+        "last_changed": "2025-03-30T20:16:50.498279+00:00",
+        "last_reported": "2025-03-30T20:16:50.498279+00:00",
+        "last_updated": "2025-03-30T20:16:50.498279+00:00",
+        "context": {
+            "id": "01JQMB6AA2T31Y4R2GX873TQSG",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "update.file_editor_update",
+        "state": "off",
+        "attributes": {
+            "auto_update": false,
+            "display_precision": 0,
+            "installed_version": "5.6.0",
+            "in_progress": false,
+            "latest_version": "5.8.0",
+            "release_summary": "# Changelog\n\n## 5.8.0\n\n- Update base image to Alpine 3.19\n\n## 5.7.0\n\n- Use new location for accessing the Home Assistant configuration folder using `/homeassistant`\n- Add access to the new public configuration folders of add-ons\n- Upgrade to Alpine 3.18\n-",
+            "release_url": null,
+            "skipped_version": "5.8.0",
+            "title": "File editor",
+            "update_percentage": null,
+            "entity_picture": "/api/hassio/addons/core_configurator/icon",
+            "friendly_name": "File editor Update",
+            "supported_features": 25
+        },
+        "last_changed": "2025-03-30T20:16:50.499396+00:00",
+        "last_reported": "2025-03-30T20:16:50.499396+00:00",
+        "last_updated": "2025-03-30T20:16:50.499396+00:00",
+        "context": {
+            "id": "01JQMB6AA340WVPF9X3FJTKJ4D",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "update.home_assistant_operating_system_update",
+        "state": "on",
+        "attributes": {
+            "auto_update": false,
+            "display_precision": 0,
+            "installed_version": "14.1",
+            "in_progress": false,
+            "latest_version": "15.0",
+            "release_summary": null,
+            "release_url": "https://github.com/home-assistant/operating-system/releases/tag/15.0",
+            "skipped_version": null,
+            "title": "Home Assistant Operating System",
+            "update_percentage": null,
+            "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+            "friendly_name": "Home Assistant Operating System Update",
+            "supported_features": 3
+        },
+        "last_changed": "2025-03-30T20:16:50.500875+00:00",
+        "last_reported": "2025-03-30T20:16:50.500875+00:00",
+        "last_updated": "2025-03-30T20:16:50.500875+00:00",
+        "context": {
+            "id": "01JQMB6AA4TADXEJRXN1PG675V",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "zone.home",
+        "state": "1",
+        "attributes": {
+            "latitude": 49.22382327461099,
+            "longitude": -122.99390137195589,
+            "radius": 100,
+            "passive": false,
+            "persons": [
+                "person.bhavnoor"
+            ],
+            "editable": true,
+            "icon": "mdi:home",
+            "friendly_name": "Home"
+        },
+        "last_changed": "2025-03-30T20:17:26.237672+00:00",
+        "last_reported": "2025-03-30T20:17:26.237672+00:00",
+        "last_updated": "2025-03-30T20:17:26.237672+00:00",
+        "context": {
+            "id": "01JQMB7D6XDY694JTWCMPQXM8N",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "conversation.home_assistant",
+        "state": "unknown",
+        "attributes": {
+            "friendly_name": "Home Assistant",
+            "supported_features": 1
+        },
+        "last_changed": "2025-03-30T20:17:29.081019+00:00",
+        "last_reported": "2025-03-30T20:17:29.081019+00:00",
+        "last_updated": "2025-03-30T20:17:29.081019+00:00",
+        "context": {
+            "id": "01JQMB7FZS8GXZV83WNKMBNC3Q",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "tag.test",
+        "state": "unknown",
+        "attributes": {
+            "tag_id": "6f0c62a1-80be-4ed9-a373-6ad9df69b62f",
+            "last_scanned_by_device_id": null,
+            "friendly_name": "test"
+        },
+        "last_changed": "2025-03-30T20:17:31.270025+00:00",
+        "last_reported": "2025-03-30T20:17:31.270025+00:00",
+        "last_updated": "2025-03-30T20:17:31.270025+00:00",
+        "context": {
+            "id": "01JQMB7J46GWXGNE95K5HTBTK7",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sun.sun",
+        "state": "above_horizon",
+        "attributes": {
+            "next_dawn": "2025-03-31T13:17:53.997923+00:00",
+            "next_dusk": "2025-03-31T03:13:28.059673+00:00",
+            "next_midnight": "2025-03-31T08:15:56+00:00",
+            "next_noon": "2025-03-31T20:16:11+00:00",
+            "next_rising": "2025-03-31T13:50:41.370857+00:00",
+            "next_setting": "2025-03-31T02:40:36.502768+00:00",
+            "elevation": 38.53,
+            "azimuth": 218.63,
+            "rising": false,
+            "friendly_name": "Sun"
+        },
+        "last_changed": "2025-03-30T20:17:31.791616+00:00",
+        "last_reported": "2025-03-30T22:13:49.323272+00:00",
+        "last_updated": "2025-03-30T22:13:31.968151+00:00",
+        "context": {
+            "id": "01JQMHVZP02ADR8DHA52CDW1NV",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_dawn",
+        "state": "2025-03-31T13:17:53+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun Next dawn"
+        },
+        "last_changed": "2025-03-30T20:17:31.793515+00:00",
+        "last_reported": "2025-03-30T20:17:31.793515+00:00",
+        "last_updated": "2025-03-30T20:17:31.793515+00:00",
+        "context": {
+            "id": "01JQMB7JMHN1TZH3KEV6K0KB3R",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_dusk",
+        "state": "2025-03-31T03:13:28+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun Next dusk"
+        },
+        "last_changed": "2025-03-30T20:17:31.793833+00:00",
+        "last_reported": "2025-03-30T20:17:31.793833+00:00",
+        "last_updated": "2025-03-30T20:17:31.793833+00:00",
+        "context": {
+            "id": "01JQMB7JMHXKQ1Z01XW493XMZY",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_midnight",
+        "state": "2025-03-31T08:15:56+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun Next midnight"
+        },
+        "last_changed": "2025-03-30T20:17:31.794076+00:00",
+        "last_reported": "2025-03-30T20:17:31.794076+00:00",
+        "last_updated": "2025-03-30T20:17:31.794076+00:00",
+        "context": {
+            "id": "01JQMB7JMJQETRSJW1FN47845V",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_noon",
+        "state": "2025-03-31T20:16:11+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun Next noon"
+        },
+        "last_changed": "2025-03-30T20:17:31.794312+00:00",
+        "last_reported": "2025-03-30T20:17:31.794312+00:00",
+        "last_updated": "2025-03-30T20:17:31.794312+00:00",
+        "context": {
+            "id": "01JQMB7JMJ52WVZM1YXDG68H81",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_rising",
+        "state": "2025-03-31T13:50:41+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun Next rising"
+        },
+        "last_changed": "2025-03-30T20:17:31.794542+00:00",
+        "last_reported": "2025-03-30T20:17:31.794542+00:00",
+        "last_updated": "2025-03-30T20:17:31.794542+00:00",
+        "context": {
+            "id": "01JQMB7JMJHJZP0MR3VAGMJ5GB",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_setting",
+        "state": "2025-03-31T02:40:36+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun Next setting"
+        },
+        "last_changed": "2025-03-30T20:17:31.794780+00:00",
+        "last_reported": "2025-03-30T20:17:31.794780+00:00",
+        "last_updated": "2025-03-30T20:17:31.794780+00:00",
+        "context": {
+            "id": "01JQMB7JMJER1HG243KSQVZ2WQ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "input_text.ai_response",
+        "state": "unknown",
+        "attributes": {
+            "editable": true,
+            "min": 0,
+            "max": 100,
+            "pattern": null,
+            "mode": "text",
+            "icon": "mdi:robot",
+            "friendly_name": "AI response"
+        },
+        "last_changed": "2025-03-30T20:17:32.109546+00:00",
+        "last_reported": "2025-03-30T20:17:32.109546+00:00",
+        "last_updated": "2025-03-30T20:17:32.109546+00:00",
+        "context": {
+            "id": "01JQMB7JYDS7145QXRPASE6TKG",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.bed1",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "bed1",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.716703+00:00",
+        "last_reported": "2025-03-30T20:17:35.031872+00:00",
+        "last_updated": "2025-03-30T20:17:35.031872+00:00",
+        "context": {
+            "id": "01JQMB7NSQH6KCE5D3B0VG1M2W",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.bed2",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "bed2",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.717096+00:00",
+        "last_reported": "2025-03-30T20:17:35.032272+00:00",
+        "last_updated": "2025-03-30T20:17:35.032272+00:00",
+        "context": {
+            "id": "01JQMB7NSRPF52R4PANJ061J92",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.bed3",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "bed3",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.717415+00:00",
+        "last_reported": "2025-03-30T20:17:35.032529+00:00",
+        "last_updated": "2025-03-30T20:17:35.032529+00:00",
+        "context": {
+            "id": "01JQMB7NSRQ5QW3PB53KVXSEK3",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.bed4",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "bed4",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.717732+00:00",
+        "last_reported": "2025-03-30T20:17:35.032760+00:00",
+        "last_updated": "2025-03-30T20:17:35.032760+00:00",
+        "context": {
+            "id": "01JQMB7NSRC5NZQ0109CDRPSYD",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.pendants",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Pendants",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.718033+00:00",
+        "last_reported": "2025-03-30T20:17:35.032946+00:00",
+        "last_updated": "2025-03-30T20:17:35.032946+00:00",
+        "context": {
+            "id": "01JQMB7NSRXWJBZSXQWYX0TED2",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.spotlights",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Spotlights",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.718313+00:00",
+        "last_reported": "2025-03-30T20:17:35.033289+00:00",
+        "last_updated": "2025-03-30T20:17:35.033289+00:00",
+        "context": {
+            "id": "01JQMB7NSSPGJGXX3RNAG6MVAA",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.cabinets",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Cabinets",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.718585+00:00",
+        "last_reported": "2025-03-30T20:17:35.033486+00:00",
+        "last_updated": "2025-03-30T20:17:35.033486+00:00",
+        "context": {
+            "id": "01JQMB7NSS00TVBT5K8RB4269V",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.power_consumption",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Power Consumption",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.719811+00:00",
+        "last_reported": "2025-03-30T20:17:35.033695+00:00",
+        "last_updated": "2025-03-30T20:17:35.033695+00:00",
+        "context": {
+            "id": "01JQMB7NSSE4V0TPBVTSFTD8QX",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.hallway_switch",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Hallway Switch",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.720191+00:00",
+        "last_reported": "2025-03-30T20:17:35.033887+00:00",
+        "last_updated": "2025-03-30T20:17:35.033887+00:00",
+        "context": {
+            "id": "01JQMB7NSSWNV245TYTTBQ0C6R",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.bathroom_light",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Bathroom Light",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.720505+00:00",
+        "last_reported": "2025-03-30T20:17:35.034055+00:00",
+        "last_updated": "2025-03-30T20:17:35.034055+00:00",
+        "context": {
+            "id": "01JQMB7NSTEWDJHWGYGHBGCBT8",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.bath_fan",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Vanity",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.720831+00:00",
+        "last_reported": "2025-03-30T20:17:35.034382+00:00",
+        "last_updated": "2025-03-30T20:17:35.034382+00:00",
+        "context": {
+            "id": "01JQMB7NSTY1HVKT1PW9H0GCAA",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.exhaust_fan",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Exhaust Fan",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.721121+00:00",
+        "last_reported": "2025-03-30T20:17:35.034581+00:00",
+        "last_updated": "2025-03-30T20:17:35.034581+00:00",
+        "context": {
+            "id": "01JQMB7NSTENSCR7B5MAJN3AK6",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.shower_light",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Shower Light",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.721400+00:00",
+        "last_reported": "2025-03-30T20:17:35.034804+00:00",
+        "last_updated": "2025-03-30T20:17:35.034804+00:00",
+        "context": {
+            "id": "01JQMB7NSTJNEQBV0F7AQJH3HE",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.living_room",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "friendly_name": "Living room ",
+            "supported_features": 0
+        },
+        "last_changed": "2025-03-30T20:17:32.721700+00:00",
+        "last_reported": "2025-03-30T20:17:35.034973+00:00",
+        "last_updated": "2025-03-30T20:17:35.034973+00:00",
+        "context": {
+            "id": "01JQMB7NST3RZ7BZ66Q8HHC7ZY",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "media_player.living_room_tv_2",
+        "state": "off",
+        "attributes": {
+            "assumed_state": true,
+            "device_class": "tv",
+            "friendly_name": "Living Room TV",
+            "supported_features": 153529
+        },
+        "last_changed": "2025-03-30T20:17:37.316206+00:00",
+        "last_reported": "2025-03-30T20:17:37.316206+00:00",
+        "last_updated": "2025-03-30T20:17:37.316206+00:00",
+        "context": {
+            "id": "01JQMB7R14MFCV619NT5B66ZT4",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "remote.living_room_tv",
+        "state": "off",
+        "attributes": {
+            "activity_list": [],
+            "current_activity": "",
+            "friendly_name": "Living Room TV",
+            "supported_features": 4
+        },
+        "last_changed": "2025-03-30T20:17:37.318713+00:00",
+        "last_reported": "2025-03-30T20:17:37.318713+00:00",
+        "last_updated": "2025-03-30T20:17:37.318713+00:00",
+        "context": {
+            "id": "01JQMB7R16K6MVEQ4T9TJG8GW0",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "button.bed_restart",
+        "state": "unknown",
+        "attributes": {
+            "device_class": "restart",
+            "friendly_name": "Bed Restart"
+        },
+        "last_changed": "2025-03-30T20:17:37.360476+00:00",
+        "last_reported": "2025-03-30T20:17:37.360476+00:00",
+        "last_updated": "2025-03-30T20:17:37.360476+00:00",
+        "context": {
+            "id": "01JQMB7R2G4C2G829X00M6XV4C",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "button.bed_identify",
+        "state": "unknown",
+        "attributes": {
+            "device_class": "identify",
+            "friendly_name": "Bed Identify"
+        },
+        "last_changed": "2025-03-30T20:17:37.360666+00:00",
+        "last_reported": "2025-03-30T20:17:37.360666+00:00",
+        "last_updated": "2025-03-30T20:17:37.360666+00:00",
+        "context": {
+            "id": "01JQMB7R2GN07XMS7BF8MZST1D",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.bed",
+        "state": "off",
+        "attributes": {
+            "min_color_temp_kelvin": 1500,
+            "max_color_temp_kelvin": 9000,
+            "min_mireds": 111,
+            "max_mireds": 666,
+            "effect_list": [
+                "effect_colorloop",
+                "effect_pulse",
+                "effect_move",
+                "effect_stop"
+            ],
+            "supported_color_modes": [
+                "color_temp",
+                "hs"
+            ],
+            "effect": null,
+            "color_mode": null,
+            "brightness": null,
+            "color_temp_kelvin": null,
+            "color_temp": null,
+            "hs_color": null,
+            "rgb_color": null,
+            "xy_color": null,
+            "friendly_name": "Bed",
+            "supported_features": 36
+        },
+        "last_changed": "2025-03-30T22:00:52.978888+00:00",
+        "last_reported": "2025-03-30T22:00:53.364836+00:00",
+        "last_updated": "2025-03-30T22:00:52.978888+00:00",
+        "context": {
+            "id": "01JQMH4T5PMGC12V1KCPMS78YC",
+            "parent_id": null,
+            "user_id": "80f52addf6b94ab188d2d83e5a16cb69"
+        }
+    },
+    {
+        "entity_id": "select.bed_theme",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "autumn",
+                "blissful",
+                "bias_lighting",
+                "calaveras",
+                "cheerful",
+                "christmas",
+                "dream",
+                "energizing",
+                "epic",
+                "evening",
+                "exciting",
+                "fantasy",
+                "focusing",
+                "gentle",
+                "halloween",
+                "hanukkah",
+                "holly",
+                "hygge",
+                "independence",
+                "intense",
+                "love",
+                "kwanzaa",
+                "mellow",
+                "party",
+                "peaceful",
+                "powerful",
+                "proud",
+                "pumpkin",
+                "relaxing",
+                "romance",
+                "santa",
+                "serene",
+                "shamrock",
+                "soothing",
+                "spacey",
+                "sports",
+                "spring",
+                "stardust",
+                "thanksgiving",
+                "tranquil",
+                "warming",
+                "zombie"
+            ],
+            "friendly_name": "Bed Theme"
+        },
+        "last_changed": "2025-03-30T20:17:37.363749+00:00",
+        "last_reported": "2025-03-30T20:18:26.977153+00:00",
+        "last_updated": "2025-03-30T20:17:37.363749+00:00",
+        "context": {
+            "id": "01JQMB7R2KWCA6DPV7QN6B11R8",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.vanced",
+        "state": "home",
+        "attributes": {
+            "source_type": "gps",
+            "latitude": 49.2238518,
+            "longitude": -122.993819,
+            "gps_accuracy": 18,
+            "altitude": 137,
+            "course": 0,
+            "speed": 0,
+            "vertical_accuracy": 1,
+            "friendly_name": "Vanced"
+        },
+        "last_changed": "2025-03-30T20:17:37.438946+00:00",
+        "last_reported": "2025-03-30T20:17:37.438946+00:00",
+        "last_updated": "2025-03-30T20:17:37.438946+00:00",
+        "context": {
+            "id": "01JQMB7R4YNBAEJRMYPV7Z5Y3F",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.vanced_battery_level",
+        "state": "64",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "device_class": "battery",
+            "icon": "mdi:battery-60",
+            "friendly_name": "Vanced Battery Level"
+        },
+        "last_changed": "2025-03-30T20:17:37.440689+00:00",
+        "last_reported": "2025-03-30T20:17:37.440689+00:00",
+        "last_updated": "2025-03-30T20:17:37.440689+00:00",
+        "context": {
+            "id": "01JQMB7R508CRR0XB4RH0MYC32",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.vanced_battery_state",
+        "state": "discharging",
+        "attributes": {
+            "icon": "mdi:battery-minus",
+            "friendly_name": "Vanced Battery State"
+        },
+        "last_changed": "2025-03-30T20:17:37.441374+00:00",
+        "last_reported": "2025-03-30T20:17:37.441374+00:00",
+        "last_updated": "2025-03-30T20:17:37.441374+00:00",
+        "context": {
+            "id": "01JQMB7R5129T6KXGE0EXSKJWK",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.vanced_charger_type",
+        "state": "none",
+        "attributes": {
+            "icon": "mdi:battery",
+            "friendly_name": "Vanced Charger Type"
+        },
+        "last_changed": "2025-03-30T20:17:37.441967+00:00",
+        "last_reported": "2025-03-30T20:17:37.441967+00:00",
+        "last_updated": "2025-03-30T20:17:37.441967+00:00",
+        "context": {
+            "id": "01JQMB7R51GG46EC80FM5GVAZJ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.vanced_wifi_connection",
+        "state": "TELUS7650",
+        "attributes": {
+            "is_hidden": false,
+            "icon": "mdi:wifi",
+            "friendly_name": "Vanced WiFi Connection"
+        },
+        "last_changed": "2025-03-30T20:17:37.442483+00:00",
+        "last_reported": "2025-03-30T20:17:37.442483+00:00",
+        "last_updated": "2025-03-30T20:17:37.442483+00:00",
+        "context": {
+            "id": "01JQMB7R524H2GT1T1PERTZB8P",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.fire_tab",
+        "state": "unknown",
+        "attributes": {
+            "source_type": "gps",
+            "friendly_name": "fire tab"
+        },
+        "last_changed": "2025-03-30T20:17:37.445640+00:00",
+        "last_reported": "2025-03-30T20:17:37.445640+00:00",
+        "last_updated": "2025-03-30T20:17:37.445640+00:00",
+        "context": {
+            "id": "01JQMB7R55X0EMASCYWG9XHYBV",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.fire_tab_battery_level",
+        "state": "17",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "device_class": "battery",
+            "icon": "mdi:battery-10",
+            "friendly_name": "fire tab Battery Level"
+        },
+        "last_changed": "2025-03-30T20:17:37.447030+00:00",
+        "last_reported": "2025-03-30T20:17:37.447030+00:00",
+        "last_updated": "2025-03-30T20:17:37.447030+00:00",
+        "context": {
+            "id": "01JQMB7R578RMN54846HHAZHNR",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.fire_tab_battery_state",
+        "state": "discharging",
+        "attributes": {
+            "icon": "mdi:battery-minus",
+            "friendly_name": "fire tab Battery State"
+        },
+        "last_changed": "2025-03-30T20:17:37.447636+00:00",
+        "last_reported": "2025-03-30T20:17:37.447636+00:00",
+        "last_updated": "2025-03-30T20:17:37.447636+00:00",
+        "context": {
+            "id": "01JQMB7R570WVQHES2D66YSRE9",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.fire_tab_charger_type",
+        "state": "none",
+        "attributes": {
+            "icon": "mdi:battery",
+            "friendly_name": "fire tab Charger Type"
+        },
+        "last_changed": "2025-03-30T20:17:37.448185+00:00",
+        "last_reported": "2025-03-30T20:17:37.448185+00:00",
+        "last_updated": "2025-03-30T20:17:37.448185+00:00",
+        "context": {
+            "id": "01JQMB7R58YFGRB8CSF1Y5RV5A",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.tab",
+        "state": "home",
+        "attributes": {
+            "source_type": "gps",
+            "latitude": 49.2238403,
+            "longitude": -122.9937982,
+            "gps_accuracy": 11,
+            "altitude": 139,
+            "course": 0,
+            "speed": 0,
+            "vertical_accuracy": 1,
+            "friendly_name": "tab"
+        },
+        "last_changed": "2025-03-30T20:17:37.450185+00:00",
+        "last_reported": "2025-03-30T20:17:37.450185+00:00",
+        "last_updated": "2025-03-30T20:17:37.450185+00:00",
+        "context": {
+            "id": "01JQMB7R5AY9WBSP4BDVEF8C3T",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.tab_battery_level",
+        "state": "1",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "device_class": "battery",
+            "icon": "mdi:battery-outline",
+            "friendly_name": "tab Battery Level"
+        },
+        "last_changed": "2025-03-30T20:17:37.451524+00:00",
+        "last_reported": "2025-03-30T20:17:37.451524+00:00",
+        "last_updated": "2025-03-30T20:17:37.451524+00:00",
+        "context": {
+            "id": "01JQMB7R5BXSFT49GPDZMHJRM5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.tab_battery_state",
+        "state": "discharging",
+        "attributes": {
+            "icon": "mdi:battery-minus",
+            "friendly_name": "tab Battery State"
+        },
+        "last_changed": "2025-03-30T20:17:37.453206+00:00",
+        "last_reported": "2025-03-30T20:17:37.453206+00:00",
+        "last_updated": "2025-03-30T20:17:37.453206+00:00",
+        "context": {
+            "id": "01JQMB7R5DT4YV8AVDTQXA66VD",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.tab_charger_type",
+        "state": "none",
+        "attributes": {
+            "icon": "mdi:battery",
+            "friendly_name": "tab Charger Type"
+        },
+        "last_changed": "2025-03-30T20:17:37.454041+00:00",
+        "last_reported": "2025-03-30T20:17:37.454041+00:00",
+        "last_updated": "2025-03-30T20:17:37.454041+00:00",
+        "context": {
+            "id": "01JQMB7R5EYD0G50GBYZWXG6YM",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.galaxy_watch4_b49b",
+        "state": "unknown",
+        "attributes": {
+            "source_type": "gps",
+            "friendly_name": "Galaxy Watch4 (B49B)"
+        },
+        "last_changed": "2025-03-30T20:17:37.455649+00:00",
+        "last_reported": "2025-03-30T20:17:37.455649+00:00",
+        "last_updated": "2025-03-30T20:17:37.455649+00:00",
+        "context": {
+            "id": "01JQMB7R5FJ5AJFHP9KFKDQAZ6",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.galaxy_watch4_b49b_battery_level",
+        "state": "33",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "device_class": "battery",
+            "icon": "mdi:battery-30",
+            "friendly_name": "Galaxy Watch4 (B49B) Battery level"
+        },
+        "last_changed": "2025-03-30T20:17:37.456833+00:00",
+        "last_reported": "2025-03-30T20:17:37.456833+00:00",
+        "last_updated": "2025-03-30T20:17:37.456833+00:00",
+        "context": {
+            "id": "01JQMB7R5GPKGJF0A8PQ5M4MBR",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.galaxy_watch4_b49b_battery_state",
+        "state": "discharging",
+        "attributes": {
+            "options": [
+                "charging",
+                "discharging",
+                "full",
+                "not_charging"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:battery-minus",
+            "friendly_name": "Galaxy Watch4 (B49B) Battery state"
+        },
+        "last_changed": "2025-03-30T20:17:37.457397+00:00",
+        "last_reported": "2025-03-30T20:17:37.457397+00:00",
+        "last_updated": "2025-03-30T20:17:37.457397+00:00",
+        "context": {
+            "id": "01JQMB7R5HSJSNQYEAZ7JYSC2K",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.galaxy_watch4_b49b_charger_type",
+        "state": "none",
+        "attributes": {
+            "options": [
+                "ac",
+                "usb",
+                "wireless",
+                "dock",
+                "none"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:battery",
+            "friendly_name": "Galaxy Watch4 (B49B) Charger type"
+        },
+        "last_changed": "2025-03-30T20:17:37.457915+00:00",
+        "last_reported": "2025-03-30T20:17:37.457915+00:00",
+        "last_updated": "2025-03-30T20:17:37.457915+00:00",
+        "context": {
+            "id": "01JQMB7R5H4S1P61C4Z89DCM2K",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.vanceds24",
+        "state": "home",
+        "attributes": {
+            "source_type": "gps",
+            "latitude": 49.2238152,
+            "longitude": -122.9939424,
+            "gps_accuracy": 100,
+            "altitude": 139.0,
+            "course": 0,
+            "speed": 0,
+            "vertical_accuracy": 100,
+            "friendly_name": "vanced24"
+        },
+        "last_changed": "2025-03-30T22:15:17.679627+00:00",
+        "last_reported": "2025-03-30T22:15:17.679627+00:00",
+        "last_updated": "2025-03-30T22:15:17.679627+00:00",
+        "context": {
+            "id": "01JQMHZ6XFSTHV0EE7ZMCNK27E",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.vanced24_battery_level",
+        "state": "29",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "%",
+            "device_class": "battery",
+            "icon": "mdi:battery-20",
+            "friendly_name": "vanced24 Battery level"
+        },
+        "last_changed": "2025-03-30T22:00:46.687659+00:00",
+        "last_reported": "2025-03-30T22:00:46.687659+00:00",
+        "last_updated": "2025-03-30T22:00:46.687659+00:00",
+        "context": {
+            "id": "01JQMH4MAZJZVTPJNVNFGMTD78",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.vanced24_battery_state",
+        "state": "discharging",
+        "attributes": {
+            "options": [
+                "charging",
+                "discharging",
+                "full",
+                "not_charging"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:battery-minus",
+            "friendly_name": "vanced24 Battery state"
+        },
+        "last_changed": "2025-03-30T20:17:37.462538+00:00",
+        "last_reported": "2025-03-30T20:17:37.462538+00:00",
+        "last_updated": "2025-03-30T20:17:37.462538+00:00",
+        "context": {
+            "id": "01JQMB7R5PXQ7G4NQJDF76TTVH",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.vanced24_charger_type",
+        "state": "none",
+        "attributes": {
+            "options": [
+                "ac",
+                "usb",
+                "wireless",
+                "dock",
+                "none"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:battery",
+            "friendly_name": "vanced24 Charger type"
+        },
+        "last_changed": "2025-03-30T20:17:37.463077+00:00",
+        "last_reported": "2025-03-30T20:17:37.463077+00:00",
+        "last_updated": "2025-03-30T20:17:37.463077+00:00",
+        "context": {
+            "id": "01JQMB7R5Q76TP9HC55MA0HJHE",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.hacs",
+        "state": "4",
+        "attributes": {
+            "repositories": [
+                {
+                    "name": "hacs/integration",
+                    "display_name": "HACS",
+                    "installed_version": "1.32.1",
+                    "available_version": "2.0.5"
+                },
+                {
+                    "name": "fufar/simple-clock-card",
+                    "display_name": "Simple Clock Card",
+                    "installed_version": "1.7",
+                    "available_version": "1.8"
+                },
+                {
+                    "name": "thomasloven/lovelace-card-mod",
+                    "display_name": "card-mod",
+                    "installed_version": "3.2.4",
+                    "available_version": "v3.4.4"
+                },
+                {
+                    "name": "rospogrigio/localtuya",
+                    "display_name": "Local Tuya",
+                    "installed_version": "v5.2.2",
+                    "available_version": "v5.2.3"
+                }
+            ],
+            "unit_of_measurement": "pending update(s)",
+            "icon": "hacs:hacs",
+            "friendly_name": "hacs"
+        },
+        "last_changed": "2025-03-30T20:17:46.201222+00:00",
+        "last_reported": "2025-03-30T20:17:52.762748+00:00",
+        "last_updated": "2025-03-30T20:17:46.201222+00:00",
+        "context": {
+            "id": "01JQMB80PSXXWT7SD724637D50",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "media_player.living_room_mini",
+        "state": "off",
+        "attributes": {
+            "device_class": "speaker",
+            "friendly_name": "Living room mini",
+            "supported_features": 152461
+        },
+        "last_changed": "2025-03-30T20:17:37.832505+00:00",
+        "last_reported": "2025-03-30T20:17:37.905263+00:00",
+        "last_updated": "2025-03-30T20:17:37.906116+00:00",
+        "context": {
+            "id": "01JQMB7RKJCXV8P961E8W3JCZC",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "weather.forecast_home",
+        "state": "partlycloudy",
+        "attributes": {
+            "temperature": 15.0,
+            "dew_point": 7.5,
+            "temperature_unit": "°C",
+            "humidity": 62,
+            "cloud_coverage": 100.0,
+            "uv_index": 3.3,
+            "pressure": 1004.8,
+            "pressure_unit": "hPa",
+            "wind_bearing": 272.2,
+            "wind_speed": 11.9,
+            "wind_speed_unit": "km/h",
+            "visibility_unit": "km",
+            "precipitation_unit": "mm",
+            "attribution": "Weather forecast from met.no, delivered by the Norwegian Meteorological Institute.",
+            "friendly_name": "Forecast Home",
+            "supported_features": 3
+        },
+        "last_changed": "2025-03-30T20:17:37.776353+00:00",
+        "last_reported": "2025-03-30T21:17:38.240032+00:00",
+        "last_updated": "2025-03-30T21:17:38.240032+00:00",
+        "context": {
+            "id": "01JQMENMJ0DSGR9K0553Y6J54Q",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "conversation.chatgpt",
+        "state": "2025-01-19T19:12:09.197736+00:00",
+        "attributes": {
+            "friendly_name": "ChatGPT",
+            "supported_features": 1
+        },
+        "last_changed": "2025-03-30T20:17:37.778649+00:00",
+        "last_reported": "2025-03-30T20:17:37.778649+00:00",
+        "last_updated": "2025-03-30T20:17:37.778649+00:00",
+        "context": {
+            "id": "01JQMB7RFJ3HMW8RY29B2SMEC1",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "media_player.living_room_tv",
+        "state": "off",
+        "attributes": {
+            "friendly_name": "Living Room TV",
+            "supported_features": 152449
+        },
+        "last_changed": "2025-03-30T20:17:37.936414+00:00",
+        "last_reported": "2025-03-30T20:17:37.995364+00:00",
+        "last_updated": "2025-03-30T20:17:37.936414+00:00",
+        "context": {
+            "id": "01JQMB7RMGH5KE2NXRDAPHC3HH",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "script.1711124391053",
+        "state": "off",
+        "attributes": {
+            "last_triggered": "2025-02-08T04:08:36.414826+00:00",
+            "mode": "restart",
+            "current": 0,
+            "icon": "mdi:light-switch-off",
+            "friendly_name": "HouseOff"
+        },
+        "last_changed": "2025-03-30T20:17:37.864257+00:00",
+        "last_reported": "2025-03-30T20:17:37.864257+00:00",
+        "last_updated": "2025-03-30T20:17:37.864257+00:00",
+        "context": {
+            "id": "01JQMB7RJ84Q6RZ5K0Q81WT363",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "script.tv_on",
+        "state": "off",
+        "attributes": {
+            "last_triggered": null,
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "tv on "
+        },
+        "last_changed": "2025-03-30T20:17:37.864760+00:00",
+        "last_reported": "2025-03-30T20:17:37.864760+00:00",
+        "last_updated": "2025-03-30T20:17:37.864760+00:00",
+        "context": {
+            "id": "01JQMB7RJ8FP729W56DHPE828Y",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "script.tv_off",
+        "state": "off",
+        "attributes": {
+            "last_triggered": null,
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "tv off"
+        },
+        "last_changed": "2025-03-30T20:17:37.865806+00:00",
+        "last_reported": "2025-03-30T20:17:37.865806+00:00",
+        "last_updated": "2025-03-30T20:17:37.865806+00:00",
+        "context": {
+            "id": "01JQMB7RJ9RSX0G8XY1EQPRR00",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.all_off",
+        "state": "on",
+        "attributes": {
+            "id": "1711124565628",
+            "last_triggered": "2025-02-08T04:08:36.413963+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "All Off"
+        },
+        "last_changed": "2025-03-30T20:17:37.922578+00:00",
+        "last_reported": "2025-03-30T20:17:37.922578+00:00",
+        "last_updated": "2025-03-30T20:17:37.922578+00:00",
+        "context": {
+            "id": "01JQMB7RM21D75FFMD9PGMNER0",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.japji_sahib_via_switch",
+        "state": "on",
+        "attributes": {
+            "id": "1736714226171",
+            "last_triggered": "2025-03-01T04:55:06.192212+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "japji sahib via switch"
+        },
+        "last_changed": "2025-03-30T20:17:37.923134+00:00",
+        "last_reported": "2025-03-30T20:17:37.923134+00:00",
+        "last_updated": "2025-03-30T20:17:37.923134+00:00",
+        "context": {
+            "id": "01JQMB7RM35XAYKQ41ED4QT84F",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.bedroom_on",
+        "state": "on",
+        "attributes": {
+            "id": "1736715548684",
+            "last_triggered": "2025-03-25T03:52:04.329778+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "bedroom on"
+        },
+        "last_changed": "2025-03-30T20:17:37.923757+00:00",
+        "last_reported": "2025-03-30T20:17:37.923757+00:00",
+        "last_updated": "2025-03-30T20:17:37.923757+00:00",
+        "context": {
+            "id": "01JQMB7RM3VS7V3YCNBA86H3AJ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.turn_off_bedroomlight",
+        "state": "on",
+        "attributes": {
+            "id": "1736715615194",
+            "last_triggered": "2025-03-25T14:24:49.195958+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "turn off bedroomlight"
+        },
+        "last_changed": "2025-03-30T20:17:37.924285+00:00",
+        "last_reported": "2025-03-30T20:17:37.924285+00:00",
+        "last_updated": "2025-03-30T20:17:37.924285+00:00",
+        "context": {
+            "id": "01JQMB7RM4AG06DS90AHK5XJZY",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.sync_bedroom_switch_with_lamp",
+        "state": "on",
+        "attributes": {
+            "id": "1736715658570",
+            "last_triggered": "2025-03-30T20:18:01.829506+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "sync bedroom switch with lamp"
+        },
+        "last_changed": "2025-03-30T20:17:37.924836+00:00",
+        "last_reported": "2025-03-30T20:18:01.831872+00:00",
+        "last_updated": "2025-03-30T20:18:01.831872+00:00",
+        "context": {
+            "id": "01JQMB8FZ5GH65WNX9RGJE0STJ",
+            "parent_id": "01JQMB8FYT5Y9X6C0Y8NNCHCJV",
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.sync_bedroom_switch_on",
+        "state": "on",
+        "attributes": {
+            "id": "1736715696392",
+            "last_triggered": "2025-03-25T03:52:04.640647+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "sync bedroom switch on"
+        },
+        "last_changed": "2025-03-30T20:17:37.925395+00:00",
+        "last_reported": "2025-03-30T20:17:37.925395+00:00",
+        "last_updated": "2025-03-30T20:17:37.925395+00:00",
+        "context": {
+            "id": "01JQMB7RM57AHZSSG3GDD6YH3Q",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.desklamp",
+        "state": "on",
+        "attributes": {
+            "id": "1736751728034",
+            "last_triggered": "2025-03-26T02:27:38.233999+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "desklamp"
+        },
+        "last_changed": "2025-03-30T20:17:37.926405+00:00",
+        "last_reported": "2025-03-30T20:17:37.926405+00:00",
+        "last_updated": "2025-03-30T20:17:37.926405+00:00",
+        "context": {
+            "id": "01JQMB7RM6NSDPB4HKWN0WD440",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.desk_lamp_off",
+        "state": "on",
+        "attributes": {
+            "id": "1736751788808",
+            "last_triggered": "2025-03-25T05:11:29.001457+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "desk lamp off"
+        },
+        "last_changed": "2025-03-30T20:17:37.926982+00:00",
+        "last_reported": "2025-03-30T20:17:37.926982+00:00",
+        "last_updated": "2025-03-30T20:17:37.926982+00:00",
+        "context": {
+            "id": "01JQMB7RM636FE1FZSPZGKG6RZ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.csi_webhook_automation",
+        "state": "on",
+        "attributes": {
+            "id": "1737280936654",
+            "last_triggered": "2025-01-20T00:08:08.149032+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "CSI Webhook On Automation"
+        },
+        "last_changed": "2025-03-30T20:17:37.927512+00:00",
+        "last_reported": "2025-03-30T20:17:37.927512+00:00",
+        "last_updated": "2025-03-30T20:17:37.927512+00:00",
+        "context": {
+            "id": "01JQMB7RM7195NHCMVTQ2QCA0M",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.csi_webhook_off_automation",
+        "state": "on",
+        "attributes": {
+            "id": "1737281010003",
+            "last_triggered": null,
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "CSI Webhook Off Automation"
+        },
+        "last_changed": "2025-03-30T20:17:37.927938+00:00",
+        "last_reported": "2025-03-30T20:17:37.927938+00:00",
+        "last_updated": "2025-03-30T20:17:37.927938+00:00",
+        "context": {
+            "id": "01JQMB7RM7EVGDAZJHW8421GBK",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.test_noufil_automation_api_from_app",
+        "state": "on",
+        "attributes": {
+            "id": "15667277",
+            "last_triggered": "2025-03-25T23:30:33.143153+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "test noufil automation api from app"
+        },
+        "last_changed": "2025-03-30T20:17:37.928322+00:00",
+        "last_reported": "2025-03-30T20:17:37.928322+00:00",
+        "last_updated": "2025-03-30T20:17:37.928322+00:00",
+        "context": {
+            "id": "01JQMB7RM8JE39P2ZT8BMMMX3Y",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "media_player.the_tv",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "supported_features": 131968
+        },
+        "last_changed": "2025-03-30T20:17:45.275243+00:00",
+        "last_reported": "2025-03-30T20:17:45.275243+00:00",
+        "last_updated": "2025-03-30T20:17:45.275243+00:00",
+        "context": {
+            "id": "01JQMB7ZSVNSQ52PBDZ35CTWTB",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "media_player.chromecast0742",
+        "state": "unavailable",
+        "attributes": {
+            "restored": true,
+            "supported_features": 131968
+        },
+        "last_changed": "2025-03-30T20:17:45.275438+00:00",
+        "last_reported": "2025-03-30T20:17:45.275438+00:00",
+        "last_updated": "2025-03-30T20:17:45.275438+00:00",
+        "context": {
+            "id": "01JQMB7ZSV42Y6YRPPBTJ28KKY",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "button.bedroom_light_restart",
+        "state": "unknown",
+        "attributes": {
+            "device_class": "restart",
+            "friendly_name": "Bedroom Light  Restart"
+        },
+        "last_changed": "2025-03-30T20:18:01.815118+00:00",
+        "last_reported": "2025-03-30T20:18:31.944721+00:00",
+        "last_updated": "2025-03-30T20:18:01.815118+00:00",
+        "context": {
+            "id": "01JQMB8FYQFF8V0YN39RE3F4AD",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "button.bedroom_light_identify",
+        "state": "unknown",
+        "attributes": {
+            "device_class": "identify",
+            "friendly_name": "Bedroom Light  Identify"
+        },
+        "last_changed": "2025-03-30T20:18:01.816517+00:00",
+        "last_reported": "2025-03-30T20:18:31.944821+00:00",
+        "last_updated": "2025-03-30T20:18:01.816517+00:00",
+        "context": {
+            "id": "01JQMB8FYRQWMV5JR6YCZ11CND",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.bedroom_light",
+        "state": "off",
+        "attributes": {
+            "min_color_temp_kelvin": 1500,
+            "max_color_temp_kelvin": 9000,
+            "min_mireds": 111,
+            "max_mireds": 666,
+            "effect_list": [
+                "effect_colorloop",
+                "effect_pulse",
+                "effect_stop"
+            ],
+            "supported_color_modes": [
+                "color_temp",
+                "hs"
+            ],
+            "effect": null,
+            "color_mode": null,
+            "brightness": null,
+            "color_temp_kelvin": null,
+            "color_temp": null,
+            "hs_color": null,
+            "rgb_color": null,
+            "xy_color": null,
+            "friendly_name": "Bedroom Light ",
+            "supported_features": 36
+        },
+        "last_changed": "2025-03-30T20:18:01.818583+00:00",
+        "last_reported": "2025-03-30T20:18:31.944995+00:00",
+        "last_updated": "2025-03-30T20:18:01.818583+00:00",
+        "context": {
+            "id": "01JQMB8FYT5Y9X6C0Y8NNCHCJV",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "button.desk_lamp_restart",
+        "state": "unknown",
+        "attributes": {
+            "device_class": "restart",
+            "friendly_name": "Desk lamp Restart"
+        },
+        "last_changed": "2025-03-30T20:17:52.883736+00:00",
+        "last_reported": "2025-03-30T20:18:33.015346+00:00",
+        "last_updated": "2025-03-30T20:17:52.883736+00:00",
+        "context": {
+            "id": "01JQMB877KVEJ1YHF3XEGCMMP3",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "button.desk_lamp_identify",
+        "state": "unknown",
+        "attributes": {
+            "device_class": "identify",
+            "friendly_name": "Desk lamp Identify"
+        },
+        "last_changed": "2025-03-30T20:17:52.884259+00:00",
+        "last_reported": "2025-03-30T20:18:33.015382+00:00",
+        "last_updated": "2025-03-30T20:17:52.884259+00:00",
+        "context": {
+            "id": "01JQMB877MQVAQH6THRQJ6KJNM",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.desk_lamp",
+        "state": "off",
+        "attributes": {
+            "min_color_temp_kelvin": 1500,
+            "max_color_temp_kelvin": 9000,
+            "min_mireds": 111,
+            "max_mireds": 666,
+            "effect_list": [
+                "effect_colorloop",
+                "effect_pulse",
+                "effect_stop"
+            ],
+            "supported_color_modes": [
+                "color_temp",
+                "hs"
+            ],
+            "effect": null,
+            "color_mode": null,
+            "brightness": null,
+            "color_temp_kelvin": null,
+            "color_temp": null,
+            "hs_color": null,
+            "rgb_color": null,
+            "xy_color": null,
+            "friendly_name": "Desk lamp",
+            "supported_features": 36
+        },
+        "last_changed": "2025-03-30T22:00:55.104714+00:00",
+        "last_reported": "2025-03-30T22:00:55.461084+00:00",
+        "last_updated": "2025-03-30T22:00:55.104714+00:00",
+        "context": {
+            "id": "01JQMH4W85Z790386QK5NVWEC6",
+            "parent_id": null,
+            "user_id": "80f52addf6b94ab188d2d83e5a16cb69"
+        }
+    },
+    {
+        "entity_id": "button.tv_tile_restart",
+        "state": "unknown",
+        "attributes": {
+            "device_class": "restart",
+            "friendly_name": "Tv Tile Restart"
+        },
+        "last_changed": "2025-03-30T20:18:10.921528+00:00",
+        "last_reported": "2025-03-30T20:18:10.921528+00:00",
+        "last_updated": "2025-03-30T20:18:10.921528+00:00",
+        "context": {
+            "id": "01JQMB8RV9M287P5P7RQ9FJ5NW",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "button.tv_tile_identify",
+        "state": "unknown",
+        "attributes": {
+            "device_class": "identify",
+            "friendly_name": "Tv Tile Identify"
+        },
+        "last_changed": "2025-03-30T20:18:10.922166+00:00",
+        "last_reported": "2025-03-30T20:18:10.922166+00:00",
+        "last_updated": "2025-03-30T20:18:10.922166+00:00",
+        "context": {
+            "id": "01JQMB8RVADB8KNX8XBDYDNB1B",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.tv_tile",
+        "state": "off",
+        "attributes": {
+            "min_color_temp_kelvin": 2500,
+            "max_color_temp_kelvin": 9000,
+            "min_mireds": 111,
+            "max_mireds": 400,
+            "effect_list": [
+                "effect_colorloop",
+                "effect_flame",
+                "effect_pulse",
+                "effect_morph",
+                "effect_stop"
+            ],
+            "supported_color_modes": [
+                "color_temp",
+                "hs"
+            ],
+            "effect": null,
+            "color_mode": null,
+            "brightness": null,
+            "color_temp_kelvin": null,
+            "color_temp": null,
+            "hs_color": null,
+            "rgb_color": null,
+            "xy_color": null,
+            "friendly_name": "Tv Tile",
+            "supported_features": 36
+        },
+        "last_changed": "2025-03-30T20:18:10.923767+00:00",
+        "last_reported": "2025-03-30T20:18:10.923767+00:00",
+        "last_updated": "2025-03-30T20:18:10.923767+00:00",
+        "context": {
+            "id": "01JQMB8RVB1WA31KZR2KBFC70Z",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.tv_tile_theme",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "autumn",
+                "blissful",
+                "bias_lighting",
+                "calaveras",
+                "cheerful",
+                "christmas",
+                "dream",
+                "energizing",
+                "epic",
+                "evening",
+                "exciting",
+                "fantasy",
+                "focusing",
+                "gentle",
+                "halloween",
+                "hanukkah",
+                "holly",
+                "hygge",
+                "independence",
+                "intense",
+                "love",
+                "kwanzaa",
+                "mellow",
+                "party",
+                "peaceful",
+                "powerful",
+                "proud",
+                "pumpkin",
+                "relaxing",
+                "romance",
+                "santa",
+                "serene",
+                "shamrock",
+                "soothing",
+                "spacey",
+                "sports",
+                "spring",
+                "stardust",
+                "thanksgiving",
+                "tranquil",
+                "warming",
+                "zombie"
+            ],
+            "friendly_name": "Tv Tile Theme"
+        },
+        "last_changed": "2025-03-30T20:18:10.925015+00:00",
+        "last_reported": "2025-03-30T20:18:10.925015+00:00",
+        "last_updated": "2025-03-30T20:18:10.925015+00:00",
+        "context": {
+            "id": "01JQMB8RVDK3NH6GEB710WHVQB",
+            "parent_id": null,
+            "user_id": null
+        }
+    }
+]

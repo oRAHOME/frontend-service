@@ -1,0 +1,131 @@
+<div class="min-h-screen bg-gray-50">
+  
+  <nav class="p-4">
+    <ul class="flex gap-8">
+      <li class="flex items-center">
+        <div class="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
+        <span class="font-bold">Living Room</span>
+      </li>
+      <li class="text-gray-500">Bedroom</li>
+      <li class="text-gray-500">Kitchen</li>
+      <li class="text-gray-500">Bathroom</li>
+    </ul>
+  </nav>
+
+  <div class="max-w-7xl mx-auto px-4 space-y-6">
+    <!-- Room Preview and Voice Assistant -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="rounded-2xl overflow-hidden">
+        <img src="https://media.discordapp.net/attachments/1251380525260738652/1330614993304944671/Screenshot_2025-01-19_at_11.08.34_AM.png?ex=67b0e648&is=67af94c8&hm=9bdcc6a74a6b2541429276d7081c345fdd3d8cea7bbbf45361cc1167406ed09d&=&format=webp&quality=lossless&width=1040&height=545" alt="Living Room" class="w-full h-64 object-cover"/>
+      </div>
+      <div class="bg-white p-6 rounded-2xl">
+        <h2 class="text-xl font-semibold mb-2">Voice Assistants</h2>
+        <p class="text-gray-500 mb-4">Voice control your devices with Nia, your personal assistant.</p>
+        <button class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-2xl">
+        <p class="text-gray-500">Current Consumption</p>
+        <p class="text-2xl font-bold">1.5kWh</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl">
+        <p class="text-gray-500">Humidity</p>
+        <p class="text-2xl font-bold">48.2%</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl">
+        <p class="text-gray-500">Temperature</p>
+        <p class="text-2xl font-bold">28°C</p>
+      </div>
+    </div>
+
+    <!-- Devices Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Humidifier -->
+      <div class="bg-blue-50 p-6 rounded-2xl">
+        <div class="flex justify-between items-center mb-4">
+          <div class="p-2 bg-white rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+            </svg>
+          </div>
+          <div class="relative inline-flex">
+            <div class="w-12 h-6 bg-gray-200 rounded-full"></div>
+            <div class="absolute left-1 top-1 bg-white w-4 h-4 rounded-full"></div>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm">Gaabor</p>
+        <p class="font-semibold">Humidifier</p>
+      </div>
+
+      <!-- Speaker -->
+      <div class="bg-white p-6 rounded-2xl">
+        <div class="flex justify-between items-center mb-4">
+          <div class="p-2 bg-gray-100 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+            </svg>
+          </div>
+          <div class="relative inline-flex">
+            <div class="w-12 h-6 bg-gray-200 rounded-full"></div>
+            <div class="absolute left-1 top-1 bg-white w-4 h-4 rounded-full"></div>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm">Amazon Echo</p>
+        <p class="font-semibold">Speaker</p>
+      </div>
+
+      <!-- Smart Lamp -->
+      <div class="bg-blue-50 p-6 rounded-2xl">
+        <div class="flex justify-between items-center mb-4">
+          <div class="p-2 bg-white rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+          </div>
+          <div class="relative inline-flex">
+            <div class="w-12 h-6 bg-blue-500 rounded-full"></div>
+            <div class="absolute right-1 top-1 bg-white w-4 h-4 rounded-full"></div>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm">Bardi</p>
+        <p class="font-semibold">Smart Lamp</p>
+      </div>
+
+      <!-- Camera -->
+      <div class="bg-white p-6 rounded-2xl">
+        <div class="flex justify-between items-center mb-4">
+          <div class="p-2 bg-gray-100 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <div class="relative inline-flex">
+            <div class="w-12 h-6 bg-gray-200 rounded-full"></div>
+            <div class="absolute left-1 top-1 bg-white w-4 h-4 rounded-full"></div>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm">Xiaomi</p>
+        <p class="font-semibold">Camera</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="fixed bottom-0 w-full bg-white border-t">
+    <div class="max-w-7xl mx-auto px-4">
+      <ul class="flex justify-between py-4">
+        <li class="text-blue-600 font-medium">Rooms</li>
+        <li class="text-gray-500">Devices</li>
+        <li class="text-gray-500">Automations</li>
+        <li class="text-gray-500">Logout</li>
+      </ul>
+    </div>
+  </nav>
+</div>
