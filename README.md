@@ -9,6 +9,15 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
+## ✅ Environment Variables
+
+The following environment variables are used to configure external authentication service URLs:
+
+```bash
+AUTH_SERVICE_LOGIN=http://localhost:8000/auth/login
+AUTH_SERVICE_REGISTER=http://localhost:8000/auth/register
+```
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
