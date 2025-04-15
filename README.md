@@ -12,7 +12,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 ## Environment Variables
 
 The following environment variables are used to configure external authentication service URLs:
-
+(change to gateway service instead) 
 ```bash
 AUTH_SERVICE_LOGIN=http://localhost:8000/auth/login
 AUTH_SERVICE_REGISTER=http://localhost:8000/auth/register
