@@ -3,7 +3,8 @@ defmodule FrontendServiceWeb.SignupLive do
   require Logger
   alias FrontendServiceWeb.GoogleSignInButtonComponent
 
-  @auth_service_url Application.compile_env(:frontend_service, :auth_service_url, "http://localhost:8000/auth/login")
+  @auth_urls Application.get_env(:frontend_service, :auth_service_urls)
+  @auth_service_url @auth_urls[:register]
 
   def render(assigns) do
     ~H"""
